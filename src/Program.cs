@@ -1,13 +1,13 @@
 ﻿using DesafioPOO.Models;
 
 // TODO: Realizar os testes com as classes Nokia e Iphone
-Nokia nokia = new("123456", "Nokia 8", "IMEI123", 64);
-Iphone iphone = new("654321", "iPhone X", "IMEI456", 128);
+Smartphone nokia = new Nokia("123456", "Nokia 8", "IMEI123", 64);
+Smartphone iphone = new Iphone("654321", "iPhone X", "IMEI456", 128);
 
-Smartphone.Ligar();
-Smartphone.ReceberLigacao();
+nokia.Ligar();
+nokia.ReceberLigacao();
 nokia.InstalarAplicativo("Facebook");
 
-Smartphone.Ligar();
-Smartphone.ReceberLigacao();
+iphone.Ligar();
+iphone.ReceberLigacao();
 iphone.InstalarAplicativo("Instagram");
