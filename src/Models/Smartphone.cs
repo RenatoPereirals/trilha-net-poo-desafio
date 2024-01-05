@@ -17,12 +17,12 @@ namespace DesafioPOO.Models
             // TODO: Passar os parâmetros do construtor para as propriedades
         }
 
-        public static void Ligar()
+        public void Ligar()
         {
             Console.WriteLine("Ligando...");
         }
 
-        public static void ReceberLigacao()
+        public void ReceberLigacao()
         {
             Console.WriteLine("Recebendo ligação...");
         }
